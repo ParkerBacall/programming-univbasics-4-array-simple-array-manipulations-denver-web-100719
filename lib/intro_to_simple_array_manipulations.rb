@@ -41,3 +41,7 @@ end
 def using_delete(a, string)
   a.delete(string)
 end
+
+def using_delete_at(a, integer)
+  a.delete(integer)
+end
