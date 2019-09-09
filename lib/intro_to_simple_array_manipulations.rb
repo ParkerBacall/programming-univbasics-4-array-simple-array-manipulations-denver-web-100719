@@ -43,5 +43,5 @@ def using_delete(a, string)
 end
 
 def using_delete_at(a, integer)
-  a.delete(integer)
+  a.delete(integer-1)
 end
